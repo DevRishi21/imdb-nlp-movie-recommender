@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load Cleaned Dataset
-DATA_PATH = "../data/imdb_data_cleaned.csv"
+DATA_PATH = "data/imdb_data_cleaned.csv"
 
 df = pd.read_csv(DATA_PATH)
 
